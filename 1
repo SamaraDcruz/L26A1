@@ -1,0 +1,24 @@
+# 1. Create a set with integer elements
+int_set = {1, 2, 3, 4, 5}
+print("Set with integer elements:", int_set)
+
+# 2. Create a set with mixed data type elements
+mixed_set = {10, "Python", 3.14, True}
+print("Set with mixed data types:", mixed_set)
+
+# 3. Create another set with elements - 1, 2, 3, 4, 3, 2
+duplicate_set = {1, 2, 3, 4, 3, 2}
+print("Set after removing duplicates automatically:", duplicate_set)
+
+# 4. Create a set from a list with elements - [1, 2, 3, 2]
+list_set = set([1, 2, 3, 2])
+print("Set created from list:", list_set)
+
+# 5. Print the set after removing the first element from this set - [0, 1, 3, 4, 5]
+my_set = {0, 1, 3, 4, 5}
+print("Original set:", my_set)
+
+# Since sets are unordered, we can remove an element using pop()
+removed_element = my_set.pop()
+print("Removed element:", removed_element)
+print("Set after removing an element:", my_set)
